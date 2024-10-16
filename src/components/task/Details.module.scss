@@ -1,0 +1,13 @@
+.detailsButton {
+  @apply w-full h-1/2 select-none;
+
+  
+
+  label {
+    @apply border-b border-[#2C2A37] rounded-[2px] pl-[18px] pr-2.5 flex w-full h-full items-center justify-between hover:bg-[#121222]/60 transition-colors duration-300 ease-in-out hover:cursor-pointer;
+ 
+    span {
+      @apply font-medium text-xs;
+    }
+  }
+}

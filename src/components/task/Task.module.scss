@@ -1,0 +1,7 @@
+.task {
+  @apply w-[516px] h-[60px] rounded-[4px] border border-[#26223D]/70 mb-5 flex items-center pl-[26px] pr-4 justify-between;
+
+  span {
+    @apply font-normal text-sm text-[#CACBCD];
+  }
+}

@@ -1,0 +1,9 @@
+.taskInput {
+  @apply border border-[#26223D]/70 h-full w-full bg-transparent rounded-l-[4px] outline-none max-w-[400px];
+  @apply placeholder:text-white/40 text-base font-normal px-[30px] text-[#CACBCD];
+}
+
+.addTask {
+  @apply bg-[#5754FC] text-white font-normal text-base flex w-[116px] h-[60px] rounded-r-[4px] justify-center items-center;
+  @apply hover:bg-[#3D39FF] transition-colors duration-300 ease-in-out
+}
